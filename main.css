@@ -1,0 +1,43 @@
+* {
+    background-color: burlywood;
+}
+.box {
+    padding: 10px 100px 100px 100px;
+    border-radius: 10px;
+    border: 100px;
+    border-style:groove;
+    border-color: rgb(255, 136, 0);
+}
+.menu {
+    display: flex;
+    min-height: 5vh;
+    flex-direction:column;
+    background-color: #ff730088;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+@keyframes ChangeBG {0%, 5%, 100%{background-color: red;} 10%, 15%, 90%{background-color: orange;} 20%, 25%, 80%{background-color: yellow;} 30%, 35%, 70%{background-color: green;} 40%, 45%, 60%{background-color: blue;} 50%{background-color: magenta;}}
+.Button:hover {transform: rotateZ(720deg); -moz-transform: rotateZ(720deg); -webkit-transform: rotateZ(720deg); -o-transform: rotateZ(720deg); animation: ChangeBG 5s ease-out 1s alternate infinite both;}
+.Button { transition: background-color .2s ease-in, box-shadow .1s ease-out; background: none; transform: rotateY(0deg); transition: transform 0.8s ease-in-out; -moz-transition: transform 0.8s ease-in-out; -webkit-transition: transform 0.8s ease-in-out; -o-transition: transform 0.8s ease-in-out;} 
